@@ -232,6 +232,7 @@
 					level.names["players"][i] = "^7" + player_name;
 					level.funcs["players"][i] = ::menuOpen;              
 					level.input["players"][i] = "options|main";
+					//level.input["players"][i] = "options|main|" + i; //Pass the player index
 			}   wait .05; 
 		}
 	}
